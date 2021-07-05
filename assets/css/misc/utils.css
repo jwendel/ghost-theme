@@ -1,5 +1,5 @@
 .u-text-format {
-    font-size: 1.7rem;
+    font-size: 19px;
     line-height: 1.8;
 }
 
@@ -63,7 +63,7 @@
 
 .u-text-format a {
     color: var(--brand-color);
-    font-weight: 700;
+    font-weight: 400;
     text-decoration: underline;
 }
 

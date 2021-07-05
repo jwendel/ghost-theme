@@ -16,7 +16,9 @@
     --twitter-color: #1da1f2;
     --rss-color: #f26522;
     --animation-base: ease-in-out;
-    --font-base: Mulish, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif; /* stylelint-disable-line value-keyword-case */
+    --font-base: Georgia, Times, serif; /* stylelint-disable-line value-keyword-case */
+    /* prettier-ignore */
+    --font-base-title: Mulish, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif; /* stylelint-disable-line value-keyword-case */
     --navbar-height: 80px;
 }
 
@@ -40,7 +42,8 @@ html {
 body {
     color: var(--primary-text-color);
     font-family: var(--font-base);
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
+    font-size: 19px;
     line-height: 1.6;
     text-rendering: optimizeLegibility;
     word-break: break-word;
@@ -67,7 +70,7 @@ h5,
 h6 {
     margin: 0 0 1.5rem;
     color: var(--darker-gray-color);
-    font-family: var(--font-base);
+    font-family: var(--font-base-title);
     line-height: 1.3;
     font-weight: 800;
 }
@@ -83,22 +86,26 @@ img {
 }
 
 blockquote {
-    margin-right: 0;
-    margin-left: 0;
-    padding: 2rem 3rem;
-    border-left: 5px solid var(--brand-color);
-    color: var(--secondary-text-color);
-    font-size: 2.1rem;
-    line-height: 1.4;
-    font-weight: 700;
-    font-style: italic;
+    margin: 0 0 0 0;
+    padding: 15px 5px 15px 15px;
+    border-left: 3px solid var(--ghost-accent-color);
+    color: #555;
+    font-size: 20px;
+    line-height: 1.5em;
+    font-weight: 300;
+    font-style: normal;
+    background-color: #f6f6f6;
     letter-spacing: -0.03rem;
-    text-align: center;
-    background-color: var(--lighter-gray-color);
 }
 
 blockquote strong {
     font-weight: 700;
+}
+
+code {
+    background-color: var(--light-gray-color);
+    border-radius: 3px;
+    padding: 3px 4px;
 }
 
 ul,

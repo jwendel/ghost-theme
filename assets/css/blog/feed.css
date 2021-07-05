@@ -61,7 +61,7 @@
     align-items: center;
     overflow: hidden;
     padding: 1.5rem 0;
-    line-height: 1;
+    line-height: 1.1;
 }
 
 .feed:hover .feed-title {
@@ -146,6 +146,7 @@
     overflow: hidden;
     margin-bottom: 0;
     padding-right: 1rem;
+    font-family: var(--font-base-title);
     font-size: 1.6rem;
     font-weight: 400;
     text-overflow: ellipsis;
