@@ -12,5 +12,5 @@
 }
 
 .container.small {
-    max-width: calc(720px + 10vw);
+    max-width: calc(750px + 10vw);
 }

@@ -1,6 +1,6 @@
 {
-    "name": "edition",
-    "description": "A clean, minimal newsletter theme for the Ghost publishing platform",
+    "name": "jwendel-ghost-theme",
+    "description": "Fork of Edition to pull in all the bits I enjoy from other themes.",
     "version": "1.0.0",
     "engines": {
         "ghost": ">=4.0.0",
